@@ -4,15 +4,20 @@
   | default @import url()
   |============================
 */
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+/* HEADER & FOOTER */
+@import './header.css';
+@import './footer.css';
+/* BODY STYLES */
+@import './hero.css';
+@import './about-me.css';
+@import './projects.css';
+@import './tech-skills.css';
+@import './faq.css';
+@import './contacts.css';
+/* BASE STYLES */
+@import './common.css'
+
+
+
+
