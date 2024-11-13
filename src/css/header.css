@@ -55,12 +55,21 @@ html {
   display: flex;
   top: 0;
   right: 0;
-  min-width: 100%;
+  width: 85%;
   height: 100%;
   background-color: var(--primary-bcg-color);
   position: fixed;
   z-index: 99999;
-  transition: opacity right 0.3 ease;
+  transform: translateX(100%);
+  transition: transform ease-in-out 0.4 ease;
+}
+
+.mobile-menu.is-open {
+  transform: translateX(15%);
+}
+
+.mobile-menu.is-closed {
+  transform: translateX(100%);
 }
 
 .mobile-menu-container {
@@ -69,14 +78,10 @@ html {
   padding-right: 20px;
 }
 
-
-.mobile-menu.logotype {
-  margin-right: 10px;
-}
-
-.logo-container {
-  display: flex;
-  gap: 30px;
+.logo-mob-menu {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .cls-btn-menu {
@@ -97,7 +102,11 @@ html {
 
 .cls-btn-icon {}
 
-.mob-menu-list {}
+.mob-menu-list {
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+}
 
 .mob-menu-item {}
 
