@@ -9,7 +9,7 @@ if (mobileMenu && openMobileMenu && closeMobileMenu) {
         mobileMenu.classList.remove('is-closed')
     })
 
-    openMobileMenu.addEventListener('click', () => {
+    closeMobileMenu.addEventListener('click', () => {
         mobileMenu.classList.add('is-closed')
         mobileMenu.classList.remove('is-open')
     })
