@@ -1,0 +1,52 @@
+.hero-section {
+    padding-top: 40px;
+}
+
+/* .hero-container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+} */
+
+.hero-title {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .btn-order-icon {
+        display: none;
+    }
+}
+
+.hero-btn-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 35px;
+   gap: 20px;
+}
+
+.button-order {
+    display: inline-block;
+    display: flex;
+    width: 127px;
+    height: 52px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 260px;
+    padding: 21px 25px 19px 25px;
+    background-color: transparent;
+}
+
+/* .second-button {
+    width: 118px;
+    height: 52px;
+} */
+
+
+
