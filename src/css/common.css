@@ -1,0 +1,101 @@
+:root {
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    --primary-text-color: #000;
+    --second-text-color: #fff;
+    --primary-bcg-color: #FFFFFF;
+    --primary-icon-color: black;
+    --second-icon-color: #fff;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoonthing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 300;
+    src: local('SF Pro Display Thin'),
+    url('./fonts/FontsFree-Net-SFProDisplay-Thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 200;
+    src: local('SF Pro Display Medium'),
+    url('./fonts/FontsFree-Net-SFProDisplay-Medium-1.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Rafisqi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Rafisqi Bold'),
+    url('./fonts/Rafisqi\ Bold.woff2') format('woff2');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+       
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .container {
+        min-width: 320px;
+        max-width: 375px;
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    .container { 
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 32px;
+    }
+}
+
