@@ -33,11 +33,14 @@
 
 @font-face {
     font-family: 'Rafisqi';
+    src: url('RafisqiBold-Bold.woff2') format('woff2'),
+        url('RafisqiBold-Bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
-    font-weight: 400;
-    src: local('Rafisqi Bold'),
-    url('./fonts/Rafisqi\ Bold.woff2') format('woff2');
+    font-display: swap;
 }
+
+
 
 h1,
 h2,
@@ -56,6 +59,8 @@ body {
 ul,
 ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
