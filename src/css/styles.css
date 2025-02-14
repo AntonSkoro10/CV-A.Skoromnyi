@@ -11,6 +11,7 @@
 /* BODY STYLES */
 @import './hero.css';
 @import './about-me.css';
+@import './background-video.css';
 @import './projects.css';
 @import './tech-skills.css';
 @import './faq.css';

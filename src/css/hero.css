@@ -1,5 +1,7 @@
 .hero-section {
     padding-top: 40px;
+        margin-right: auto;
+            margin-left: auto;
 }
 
 /* .hero-container {
@@ -9,6 +11,8 @@
 } */
 
 .hero-title {
+    max-width: 311px;
+    margin: 0 auto ;
     text-align: center;
     font-weight: 300;
     font-size: 40px;
@@ -31,26 +35,29 @@
    gap: 20px;
 }
 
-.button-order {
-    display: flex;
-    width: 127px;
-    height: 52px;
-    font-family: 'SF Pro Display', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 260px;
-    padding: 21px 25px 19px 25px;
-    background-color: transparent;
-}
 
-/* .second-button {
-    width: 118px;
-    height: 52px;
-} */
+@media screen and (min-width: 768px) {
+    .hero-title {
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 1.5;
+    }
+
+    .hero-btn-container {
+        gap: 40px;
+    }
+
+    .button-order {
+        width: 204px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .btn-order-icon {
+        margin-left: 12px;
+    }
+
+}
 
 
 
