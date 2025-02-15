@@ -1,0 +1,36 @@
+.projects-section {
+    background-color: #000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.projects-container {}
+
+.projects-title {
+    color: var(--second-text-color);
+    font-weight: 200;
+    font-size: 34px;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.projects-item {}
+
+.project-object {}
+
+.project-title {
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 1.3;
+    color: var(--second-text-color);
+    margin-bottom: 20px;
+}
+
+.project-image {}
