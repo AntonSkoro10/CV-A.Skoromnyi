@@ -1,5 +1,5 @@
 :root {
-    font-family: SF Pro Display;
+    font-family: SF Pro Display, Rafisqi, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -27,14 +27,16 @@
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 200;
-    src: local('SF Pro Display Medium'),
-    url('./fonts/FontsFree-Net-SFProDisplay-Medium-1.woff2') format('woff2');
+    src: local( 'SF-Pro-Display-Ultralight'),
+        url('./fonts/SF-Pro-Display-Ultralight.woff2') format('woff2'),
+        url('./fonts/SF-Pro-Display-Ultralight.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Rafisqi';
-    src: url('RafisqiBold-Bold.woff2') format('woff2'),
-        url('RafisqiBold-Bold.woff') format('woff');
+    src:local('Rafisqi-Bold') 
+    url('./fonts/Rafisqi-Bold.woff2') format('woff2'),
+        url('./fonts/Rafisqi-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -53,7 +55,7 @@ p {
 }
 
 body {
-       
+   background-color: var(--primary-bcg-color);
 }
 
 ul,
