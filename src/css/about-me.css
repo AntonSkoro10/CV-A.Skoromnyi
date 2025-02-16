@@ -1,0 +1,85 @@
+.about-me {
+    background-color: #000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-title {
+    padding-top: 30px;
+    font-weight: 200;
+    font-size: 34px;
+    color: var(--second-text-color);
+    text-align: end;
+}
+
+.about-me-image {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.about-me-item {
+    margin-top: 70px;
+    color: var(--second-text-color);
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: .03em;
+}
+
+p.about-me-item::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
+    width: 100%;
+    height: 1px;
+    margin-top: 25px;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 25px;
+
+}
+
+.education-list {
+   display: flex;
+   flex-direction: column;
+}
+
+h3.education-title::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    /* Розмір квадратика */
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
+    /* Напівпрозорий білий */
+    margin-right: 8px;
+    /* Відступ від тексту */
+}
+
+.education-title {
+    color: var(--second-text-color);
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+
+.education-item {
+   color: var(--second-text-color);
+   font-weight: 200;
+   font-size: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
