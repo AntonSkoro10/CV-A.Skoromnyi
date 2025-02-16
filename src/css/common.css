@@ -18,6 +18,14 @@
 @font-face {
     font-family: 'SF Pro Display';
     font-style: normal;
+    font-weight: 400;
+    src: local('SF Pro Display Medium'),
+        url('./fonts/FontsFree-Net-SFProDisplay-Medium-1.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
     font-weight: 300;
     src: local('SF Pro Display Thin'),
     url('./fonts/FontsFree-Net-SFProDisplay-Thin.woff2') format('woff2');
